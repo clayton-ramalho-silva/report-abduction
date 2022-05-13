@@ -14,5 +14,5 @@ use App\Http\Controllers\RelatoController;
 |
 */
 
-Route::get('/',[RelatoController::class,'create']);
+Route::get('/',[RelatoController::class,'create'])->name('relato.formulario');
 Route::post('/',[RelatoController::class, 'store'])->name('relato.enviar');
