@@ -21,7 +21,7 @@
     <div class="container mt-5">
         <h2>Share your of alien abduction:</h2>
 
-        <form action="#" method="post" class="mt-3 mb-5">
+        <form action="{{ route('relato.enviar') }}" method="post" class="mt-3 mb-5">
             @csrf
 
             {{-- First Name --}}
